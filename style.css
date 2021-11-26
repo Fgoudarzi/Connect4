@@ -1,0 +1,24 @@
+
+.grid{
+    border: 1px solid black;
+    height:120px;
+    width: 140px;
+    display: grid;
+    grid-template-columns:repeat(7 , 20px);
+}
+.grid div{
+    width:20px;
+    height:20px;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 50%;
+}
+.player-two{
+    background-color:blue;
+    border-radius: 50%;
+}
+.hidden{
+    display:none;
+}
